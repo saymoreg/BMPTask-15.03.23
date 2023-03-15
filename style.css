@@ -1,0 +1,112 @@
+body{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+
+.container{
+    justify-content: space-between;
+    display: flex;
+}
+
+.row-1{
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.row-3{
+    margin-top: 10px;
+    margin-right: 10px;
+    height: 200px;
+    width: max-content;
+}
+
+.item-1{
+    background-color: #003d1c;
+    display: flex;
+    float: left;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.item-2{
+    background-color:#56c288;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    border-bottom-left-radius: 100%;
+}
+
+.item-3{
+    background-color:#6875ec;
+    display: flex;
+    float: left;
+    width: 100px;
+    height: 100px;
+    border-radius: 10% 10%;
+}
+
+.item-4{
+    background-color:#ccd1d7;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.item-5{
+    background-color:#ff0101;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px; /* not sure if it's good practice but it works :D */
+    margin-top: 10px;
+    height: 100px;
+    width: 180px;
+    border-radius: 30% 30%;
+}
+
+.internal-item-6{ 
+    background-color:#ff0101;
+    height: 0px;
+    width: 0px;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 50px solid white;
+    margin-left: 10px;
+}
+
+.item-7{
+    background-color: #f6b800;
+    display: flex;
+    float: left;
+    width: 50px;
+    height: 100px;
+    border-radius: 100% 100% 30% 30%;
+}
+
+.item-8{
+    background-color:#e64132;
+    display: flex;
+    width: 50px;
+    height: 100px;
+    border-radius: 30% 100% 100% 30%;
+}
+
+.item-9{
+    background-color:#31a452;
+    display: flex;
+    float: left;
+    width: 50px;
+    height: 100px;
+    border-radius: 100% 30% 30% 100%;
+}
+
+.item-10{
+    background-color:#4081ef;
+    display: flex;
+    width: 50px;
+    height: 100px;
+    border-radius: 30% 30% 100% 100%;
+}
